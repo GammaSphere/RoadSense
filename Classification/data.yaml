@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['beware of wild animals', 'construction', 'curve to left or right', 'double curve on the left or right', 'go ahead', 'keep right', 'no overtaking', 'no overtaking trucks', 'no speed limit', 'other dangers nearby', 'priority road', 'prohibited', 'right of way at next intersection', 'road narrows on left or right', 'speed limit', 'stop', 'turn right', 'yield']
+
+roboflow:
+  workspace: yolo-v8-j3mse
+  project: traffic-sign-classification-u1l8j
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-v8-j3mse/traffic-sign-classification-u1l8j/dataset/1
