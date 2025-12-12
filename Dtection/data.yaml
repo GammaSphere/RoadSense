@@ -1,0 +1,10 @@
+# Define training and validation paths
+train: images/train  #--> add your train dataset's file path
+val: images/val  #--> add your val dataset's file path
+
+# Number of classes 
+nc: 1  
+
+# Class names (names don't matter for YOLO, but needed for reference)
+names: 
+  0: traffic signs
